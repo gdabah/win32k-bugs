@@ -1,4 +1,5 @@
 // Gil Dabah 2019
+// CVE-2019-1071
 // Menu object kernel pointer leak.
 // A kernel window structure shares the same field to hold either the id of a child window, or a menu pointer for a non-child window.
 // We create a window that is non-child first, and then in one (xxxClientLoadMenu) of the callbacks to usermode, we change the window to become a child window.
