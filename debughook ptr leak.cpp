@@ -1,5 +1,6 @@
 //
 // Gil Dabah August 2019
+// CVE-2019-1469
 // All Windows versions affected.
 // This POC is for Windows 10 x64.
 // The debughook struct thunk function doesn't omit the kernel lparam address,
